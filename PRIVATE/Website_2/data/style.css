@@ -1,0 +1,44 @@
+.container {
+  background-color: center;
+  block-size: 250px;
+  width: 250px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 4px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  background-position: center;
+  padding: 2px;
+
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 4px;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  width: 60%;
+  height: 35px;
+  background-color: #479a49;
+  color: rgb(245, 245, 245);
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
